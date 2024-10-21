@@ -243,6 +243,11 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 
+.carousel-control-prev-icon, .carousel-control-next-icon, .visually-hidden {
+	visibility: hidden;
+}
+
+
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
