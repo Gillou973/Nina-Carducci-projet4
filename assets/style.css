@@ -247,7 +247,6 @@ input[type="submit"] {
 	visibility: hidden;
 }
 
-
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
