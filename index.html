@@ -14,7 +14,7 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
 		<meta charset="UTF-8">
-		<script src="./assets/bootstrap/bootstrap.bundle.js" defer></script>
+		<script src="./assets/bootstrap/bootstrap.bundle.js"></script>
 		<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 		<script src="./assets/maugallery.js" defer></script>
 		<script src="./assets/scripts.js" defer></script>
@@ -42,20 +42,35 @@
 				</div>
 				<div class="carousel-inner">
 					<div class="carousel-item active">
-						<img src="./assets/images/slider/ryoji-iwataw.webp" class="d-block w-100" alt="Pieton">
+						<picture>
+							<source srcset="./assets/images/slider/ryoji-iwataw-320.webp" media="(max-width: 768px)">
+							<source srcset="./assets/images/slider/ryoji-iwataw-768.webp" media="(max-width: 1024px)">
+							<source srcset="./assets/images/slider/ryoji-iwataw-1024.webp" media="(max-width: 1470px)">
+							<img src="./assets/images/slider/ryoji-iwataw-1470.webp" class="d-block w-100" alt="Pieton">
+						</picture>
 					</div>
 					<div class="carousel-item">
-						<img src="./assets/images/slider/nicholas-green.webp" class="d-block w-100" alt="Foule de spectacle">
+						<picture>
+							<source srcset="./assets/images/slider/nicholas-green-320.webp" media="(max-width: 768px)">
+							<source srcset="./assets/images/slider/nicholas-green-768.webp" media="(max-width: 1024px)">
+							<source srcset="./assets/images/slider/nicholas-green-1024.webp" media="(max-width: 1470px)">
+							<img src="./assets/images/slider/nicholas-green-1470.webp" class="d-block w-100" alt="Foule de spectacle">
+						</picture>
 					</div>
 					<div class="carousel-item">
-						<img src="./assets/images/slider/edward-cisneros.webp" class="d-block w-100" alt="moment de danse d'un mariage">
+						<picture>
+							<source srcset="./assets/images/slider/edward-cisneros-320.webp" media="(max-width: 768px)">
+							<source srcset="./assets/images/slider/edward-cisneros-768.webp" media="(max-width: 1024px)">
+							<source srcset="./assets/images/slider/edward-cisneros-1024.webp" media="(max-width: 1470px)">
+							<img src="./assets/images/slider/edward-cisneros-1470.webp" class="d-block w-100" alt="moment de danse d'un mariage">
+						</picture>
 					</div>
 				</div>
-				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev" aria-label="Aria Name">
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
 					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 					<span class="visually-hidden">Previous</span>
 				</button>
-				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next" aria-label="Aria Name">
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
 					<span class="carousel-control-next-icon" aria-hidden="true"></span>
 					<span class="visually-hidden">Next</span>
 				</button>
@@ -63,7 +78,12 @@
 		</div>
 		<section id="about">
 			<div class="picture left">
-				<img src="./assets/images/nina.webp" alt="Portrait de Nina Carducci">
+				<picture>
+					<source srcset="./assets/images/nina-opt-320.webp" media="(max-width: 768px)">
+					<source srcset="./assets/images/nina-opt-768.webp" media="(max-width: 1024px)">
+					<source srcset="./assets/images/nina-opt-1024.webp" media="(max-width: 1470px)">
+					<img src="./assets/images/nina-opt10-1470.webp" alt="Portrait de Nina Carducci">
+				</picture>
 			</div>
 			<div id="about-me">
 				<h2 class="about-me__title">A propos de moi</h2>
@@ -156,7 +176,13 @@
 					</form>
 				</div>
 				<div class="picture right">
-					<img src="./assets/images/camera.webp" alt="image appareil photo">
+					<picture>
+						<source srcset="./assets/images/camera-opt-320.webp" media="(max-width: 768px)">
+						<source srcset="./assets/images/camera-opt-768.webp" media="(max-width: 1024px)">
+						<source srcset="./assets/images/camera-opt-1024.webp" media="(max-width: 1470px)">
+						<img src="./assets/images/camera.webp" alt="image appareil photo">
+					</picture>
+					
 				</div>
 			</div>
 		</section>

@@ -38,6 +38,11 @@ body {
 	color: #000
 }
 
+.nav a:hover {
+	text-decoration: underline;
+	color: #000
+}
+
 .social-link img {
 	width: 20px;
 }
@@ -107,6 +112,11 @@ body {
 .nav-pills .nav-link {
 	color: #000;
 }
+
+.nav-link{
+	cursor: pointer;
+}
+
 .item-column {
 	position: relative;
 	margin-bottom: 0 !important;
@@ -146,6 +156,8 @@ body {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
+	font-size: 2.5em;
+	line-height: 1.2
 
 }
 .quote__author {
@@ -243,8 +255,12 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon, .visually-hidden {
+.visually-hidden {
 	visibility: hidden;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+	background-color: #000;
 }
 
 @media all and (max-width: 1180px) {
