@@ -3,12 +3,20 @@
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="Nina une photgraphe professionnelle à Bordeaux et en France à votre service">
-		<meta name="keywords" content="Nina Carducci : Photgraphe professionnelle, Shooting photo, Retouches, Album photos, Evènementiels, Mariage, ">
 		<meta content="https://gillou973.github.io/Nina-Carducci-projet4/" property="og:url">
-		<meta property="og:title" content="Nina Carducci Photographe pour évènements professionnels" />
-		<meta property="og:description" content="Nina une photgraphe professionnelle à Bordeaux et en France à votre service" />
-		<meta name="twitter:title" content="Nina Carducci Photographe pour évènements professionnels" />
-		<meta name="twitter:description" content="Nina une photgraphe professionnelle à Bordeaux et en France à votre service" />
+		<meta property="og:url" content="https://gillou973.github.io/Nina-Carducci-projet4/">
+		<meta property="og:locale" content="fr_FR">
+		<meta property="og:site_name" content="Nina Carducci Photographe">
+		<meta property="og:title" content="Nina Carducci Photographe pour évènements professionnels">
+		<meta property="og:description" content="Nina une photgraphe professionnelle à Bordeaux et en France à votre service">
+		<meta property="og:image" content="https://gillou973.github.io/Nina-Carducci-projet4/assets/images/slider/edward-cisneros-1905.webp">
+
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:title" content="Nina Carducci Photographe pour évènements professionnels">
+		<meta name="twitter:site" content="@Nina Carducci">
+		<meta name="twitter:description" content="Nina une photgraphe professionnelle à Bordeaux et en France à votre service">
+		<meta name="twitter:image" content="https://gillou973.github.io/Nina-Carducci-projet4/assets/images/slider/edward-cisneros-1905.webp">
+
 		<title>Nina Carducci Photographe pour évènements professionnels</title>
 		<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
 		<link rel="stylesheet" href="./assets/style.css">
@@ -20,9 +28,27 @@
 		<script type="application/ld+json">
 			{
 			  "@context": "https://schema.org",
-			  "@type": "Person",
-			  "name": "Nina Carducci",
+			  "@type": "LocalBusiness",
+			  "name": "Nina Carducci Photographe",
 			  "url": "https://gillou973.github.io/Nina-Carducci-projet4/",
+			  "email": "Nina.Carducci@example.com",
+			  "telephone": "05 56 67 78 89",
+			  "openingHours": "Mo,Tu,We,Th,Fr 10:00-19:00",
+			  "openingHoursSpecification":
+				[
+					{
+					"@type": "OpeningHoursSpecification",
+					"dayOfWeek": [
+						"Monday",
+						"Tuesday",
+						"Wednesday",
+						"Thursday",
+						"Friday"
+					],
+					"opens": "10:00:00",
+					"closes": "19:00:00"
+					}
+				]
 			  "address": {
 				"@type": "PostalAddress",
 				"streetAddress": "68 avenue Alsace-Lorraine",
@@ -30,8 +56,10 @@
 				"postalCode": "33200",
 				"addressCountry": "FR"
 			  },
-			  "email": "Nina.Carducci@example.com",
-			  "telephone": "+33 5 56 67 78 89"
+			  "author": {
+				"@type": "Person",
+				"name": "Nina Carducci"
+			  }
 			}
 		</script>
 		<script src="./assets/bootstrap/bootstrap.bundle.js"></script>
@@ -186,12 +214,12 @@
 					<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
 					<form action="" method="post">
 						<label for="nom">Nom</label>
-						<input type="text" name="nom" id="nom">
+						<input type="text" name="nom" id="nom" aria-label="nom">
 						<label for="email">Email</label>
-						<input type="email" name="email" id="email">
+						<input type="email" name="email" id="email" aria-label="email">
 						<label for="message">Message</label>
 						<textarea name="message" id="message" cols="30" rows="10"></textarea>
-						<input type="submit" value="Envoyer"/>
+						<input type="submit" value="Envoyer" aria-label="Envoyer">
 					</form>
 				</div>
 				<div class="picture right">
