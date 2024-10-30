@@ -27,14 +27,14 @@
 		<!-- JSON-LD Schema.org -->
 		<script type="application/ld+json">
 			{
-			  "@context": "https://schema.org",
-			  "@type": "LocalBusiness",
-			  "name": "Nina Carducci Photographe",
-			  "url": "https://gillou973.github.io/Nina-Carducci-projet4/",
-			  "email": "Nina.Carducci@example.com",
-			  "telephone": "05 56 67 78 89",
-			  "openingHours": "Mo,Tu,We,Th,Fr 10:00-19:00",
-			  "openingHoursSpecification":
+				"@context": "https://schema.org",
+				"@type": "LocalBusiness",
+				"name": "Nina Carducci Photographe",
+				"url": "https://gillou973.github.io/Nina-Carducci-projet4/",
+				"email": "Nina.Carducci@example.com",
+				"telephone": "05 56 67 78 89",
+				"openingHours": "Mo,Tu,We,Th,Fr 10:00-19:00",
+				"openingHoursSpecification":
 				[
 					{
 					"@type": "OpeningHoursSpecification",
@@ -49,13 +49,18 @@
 					"closes": "19:00:00"
 					}
 				],
-			  "address": {
-				"@type": "PostalAddress",
-				"streetAddress": "68 avenue Alsace-Lorraine",
-				"addressLocality": "Bordeaux",
-				"postalCode": "33200",
-				"addressCountry": "FR"
-			  }
+				"address": {
+					"@type": "PostalAddress",
+					"streetAddress": "68 avenue Alsace-Lorraine",
+					"addressLocality": "Bordeaux",
+					"postalCode": "33200",
+					"addressCountry": "FR"
+			  },
+				"geo": {
+					"@type": "GeoCoordinates",
+					"latitude": 44.8466732,
+					"longitude": -0.6065805
+				},
 			}
 		</script>
 		<script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
@@ -126,7 +131,7 @@
 					<source srcset="./assets/images/nina-opt-320.webp" media="(max-width: 768px)">
 					<source srcset="./assets/images/nina-opt-768.webp" media="(max-width: 1024px)">
 					<source srcset="./assets/images/nina-opt-1024.webp" media="(max-width: 1470px)">
-					<img src="./assets/images/nina-opt-1470.webp" alt="Portrait de Nina Carducci">
+					<img src="./assets/images/nina-opt-1470.webp" width="375" height="374" alt="Portrait de Nina Carducci">
 				</picture>
 			</div>
 			<div id="about-me">
@@ -223,7 +228,7 @@
 						<source srcset="./assets/images/camera-opt-320.webp" media="(max-width: 768px)">
 						<source srcset="./assets/images/camera-opt-768.webp" media="(max-width: 1024px)">
 						<source srcset="./assets/images/camera-opt-1024.webp" media="(max-width: 1470px)">
-						<img src="./assets/images/camera-opt-1470.webp" alt="image appareil photo">
+						<img src="./assets/images/camera-opt-1470.webp" width="402" height="401" alt="image appareil photo">
 					</picture>
 					
 				</div>
